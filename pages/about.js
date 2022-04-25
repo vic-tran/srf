@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styled from 'styled-components';
 
 const Hero = styled.div`
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,19 +12,21 @@ const Hero = styled.div`
 
 const Heading = styled.h1`
   color: #000;
-  font-size: 5rem;
-  font-weight: 750;
+  font-size: 10rem;
+  font-weight: 900;
 `
 
-export default function Home() {
+
+export default function About() {
   return (
     <div>
       <Head>
-        <title>Surf Training | Surf Ready Fitness +</title>
+        <title>About Page</title>
       </Head>
       <Hero>
-        <Heading>Welcome to Surf Ready Fitness +</Heading>
+        <Heading>About</Heading>
       </Hero>
+
       
     </div>
   )

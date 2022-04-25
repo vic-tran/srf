@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Titledescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
