@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import Link from 'next/link';
 
 const HeaderSection = styled.div`
     color: #000;
@@ -13,7 +13,9 @@ const HeaderSection = styled.div`
 function Header() {
   return (
     <HeaderSection>
+        <Link href="/" passHref>
         <img src="/srf.png" />
+        </Link>
         <br />
         <p>Surf Ready Fitness </p>
     </HeaderSection>

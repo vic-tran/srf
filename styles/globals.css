@@ -21,3 +21,17 @@ a {
   align-items: center;
   background: #fff;
 }
+
+.classes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  flex-direction: row; 
+  margin-left: 50px;
+}
+
+.text-on-image{
+  display:flex;
+  justify-content:center;
+}
